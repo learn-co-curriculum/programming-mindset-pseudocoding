@@ -32,9 +32,11 @@ _A gluten-bomb of deliciousness_
 
 _Note: For this exercise we'll ignore that the baguette is rounded at the ends
 and that there may be tiny differences between sections. Most people you'd
-want to share a baguette would ignore these as well_
+want to share a baguette with would ignore these as well_
 
-Let's run through our steps to solve the problem.
+Let's run through our steps to solve the problem. You can follow along with
+pencil and paper or marker and whiteboard if you like! That's often how
+psuedocoding is done.
 
 ### Step 1: Identify the problem
 
@@ -70,7 +72,7 @@ evenly-sized bread pieces.
 
 To create the even pieces of baguette we certainly need....**a baguette**.
 
-There's also a hint in this adjective we keep using _even_. What is
+There's also a hint in this adjective: we keep using _even_. What is
 _even_? For our purposes, _even_ means that the pieces all have the same
 _length_. Given that our procedure includes the words "among _n_ people," we
 need to know the **number of people**
@@ -94,8 +96,8 @@ At this point we know the **even\_length**.
 > method, all the same thing). They're there to make the implementation
 > _clearer_ by holding information that gets reused in the procedure.
 
-"Wait a second!" you might be thinking. We didn't define the `measure`
-procedure. That's _true_. This is pseudocode, not _actual_ code. When you can
+"Wait a second!" you might be thinking. We didn't define any way to _measure_
+the baguette. That's _true_. This is pseudocode, not _actual_ code. When you can
 easily imagine that something to get a value exists, there's no reason to not
 use it _as if_ it exists when it's reasonably clear.
 
