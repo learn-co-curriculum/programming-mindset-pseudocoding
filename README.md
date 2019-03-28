@@ -127,7 +127,7 @@ Procedure DivideBaguetteEvenly(baguette, n):
   even_length = baguette_length / n
   collection = []
 
-  while baguette_length >= even_length:
+  while baguette_length > even_length:
     piece, rest = cut_bread(baguette, even_length)
     collection.add(piece)
 
