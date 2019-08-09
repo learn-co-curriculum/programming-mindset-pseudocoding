@@ -82,7 +82,7 @@ So our inputs are:
 1. Baguette
 2. Number of people
 
-<img alt="Step 1 of Pseudocode" src="https://curriculum-content.s3.amazonaws.com/pfwtfp/pfwtfp-pseudocode-demonstration/dedr.jpg" width="60%">
+<img alt="Step 1 of Pseudocode" src="https://curriculum-content.s3.amazonaws.com/programming-mindset/pseudocoding/Image_44_PseudoCode_1.png" width="60%">
 
 ### Step 5: Define the Procedure’s Implementation
 
@@ -101,14 +101,14 @@ the baguette. That's _true_. This is pseudocode, not _actual_ code. When you can
 easily imagine that something to get a value exists, there's no reason to not
 use it _as if_ it exists when it's reasonably clear.
 
-<img alt="Step 2 of Pseudocode" src="https://curriculum-content.s3.amazonaws.com/pfwtfp/pfwtfp-pseudocode-demonstration/psc_step_2.JPG" width="60%">
+<img alt="Step 2 of Pseudocode" src="https://curriculum-content.s3.amazonaws.com/programming-mindset/pseudocoding/Image_45_PseudoCode_2.png" width="60%">
 
 So while the baguette's length is longer than an even piece, the baguette can
 be cut. The part that's cut off should go into a basket and the part that
 remains should be tested for whether another piece can be cut off of it. At the
 end, we'll be done and have our pieces.
 
-<img alt="Step 3 of Pseudocode" src="https://curriculum-content.s3.amazonaws.com/pfwtfp/pfwtfp-pseudocode-demonstration/psc_step_3.JPG"> 
+<img alt="Step 3 of Pseudocode" src="https://curriculum-content.s3.amazonaws.com/programming-mindset/pseudocoding/Image_46_PseudoCode_3.png"> 
 
 "Wait a second!" you might be thinking. You're using weird methods like `add()`
 or `x, y = someProcedure(argument)`! Those don't exist. That's not Ruby /
